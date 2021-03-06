@@ -98,7 +98,6 @@ header .textos-header h2{
 /* ************** */
 .inicio{
     height: 100vh;
-    background: green;
 }
 .contenedor-inicio{
     display: flex;
@@ -118,7 +117,3 @@ header .textos-header h2{
     width: 300px;
     top: -150px;
 }
-
-/* ***************** */
-/* SECCION ASESORIAS */
-/* ***************** */
