@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ******************* */
+/* BARRA DE NAVEGACION */
+/* ******************** */
+nav{
+    /* background: rgb(28, 115, 181); */
+    background: #fff;
+    text-align: right;
+    padding: 20px 50px 20px 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 15px;
+}
+nav a:hover{
+    color: green;
+    font-weight: 900;
+    font-size: 15.5px;
+}

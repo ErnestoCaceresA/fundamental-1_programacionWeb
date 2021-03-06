@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+/* tipografia */
+}
+
+/* ******************* */
+/* BARRA DE NAVEGACION */
+/* ******************** */
+nav{
+    /* background: rgb(28, 115, 181); */
+    background: #fff;
+    text-align: right;
+    padding: 20px 50px 20px 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 15px;
+}
+nav a:hover{
+    color: green;
+    font-weight: 900;
+    font-size: 15.5px;
+}
+
+
+.contenedor{ /* separacion entre secciones */
+    margin: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #278323;
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* ******* */
+/* HEADER */
+/* ******* */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #AAFFA9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(189, 195, 199, 0.57), rgba(44, 62, 80, 0.508)), url(../img/fondoUANL.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(189, 195, 199, 0.57), rgba(44, 62, 80, 0.508)), url(../img/fondoUANL.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+header .textos-header{
+    display: flex;
+    height: 420px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* font-weight: 1000;
+    font-size: 25px; */
+}
+header .textos-header h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+header .textos-header h2{
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* Efecto wave */
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+/* *************** */
+/* SECCION INICIO */
+/* ************** */
+.inicio{
+    height: 100vh;
+    background: green;
+}
+.contenedor-inicio{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.contenedor-oso_fime{
+    position: relative;
+}
+.imagen-oso-fime{
+    position: absolute;
+    top: -150px;
+    left: 80%;
+}
+.imagen-logo-fime{
+    position: absolute;
+    width: 300px;
+    top: -150px;
+}
+
+/* ***************** */
+/* SECCION ASESORIAS */
+/* ***************** */
