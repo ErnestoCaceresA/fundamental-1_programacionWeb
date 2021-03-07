@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #e0e0e0;
 }
 
 /* ******************* */
@@ -9,7 +10,7 @@
 /* ******************** */
 nav{
     /* background: rgb(28, 115, 181); */
-    background: #fff;
+    background-color: #e0e0e0;
     text-align: right;
     padding: 20px 50px 20px 0;
     position: fixed;

@@ -13,7 +13,7 @@ body{
 /* ******************** */
 nav{
     /* background: rgb(28, 115, 181); */
-    background: #fff;
+    background-color: #e0e0e0;
     text-align: right;
     padding: 20px 50px 20px 0;
     position: fixed;
@@ -56,7 +56,7 @@ nav a:hover{
 header{
     width: 100%;
     height: 600px;
-    background: #AAFFA9;  /* fallback for old browsers */
+    background: #AAFFA9;
     background: -webkit-linear-gradient(to right, rgba(189, 195, 199, 0.57), rgba(44, 62, 80, 0.508)), url(../img/fondoUANL.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgba(189, 195, 199, 0.57), rgba(44, 62, 80, 0.508)), url(../img/fondoUANL.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
