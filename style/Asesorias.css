@@ -148,14 +148,3 @@ nav a:hover{
 .formulario-info ul li{
     padding: .5em;
 }
-
-
-/* ***************** */
-/* PANATALLA GRANDE */
-/* ***************** */
-/* @media (min-width: 700px){
-    .formulario form{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-    }
-} */

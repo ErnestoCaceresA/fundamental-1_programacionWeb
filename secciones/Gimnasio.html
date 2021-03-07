@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fime</title>
+    <!-- estilos -->
     <link rel="stylesheet" href="../style/Gimnasio.css">
+    <!-- fontawesome iconos -->
+    <script src="https://kit.fontawesome.com/050c3a0c5f.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
@@ -18,7 +24,72 @@
         </nav>
     </header>
     
-    <br><br><br>
-    <h1>Gimnasio</h1>
+    <div class="contenedor-master">
+
+        <div class="contenedor-General">
+            <h1 class="logo"> <img src="../img/osoFIME.png" alt="Oso Fime" width="100px"> Inscripción Gimnasio <span>FIME</span></h1>
+    
+            <div class="contenedor-formulario">
+    
+                <div class="formulario" style="border-radius: 8px;">
+                    <h3 style="font-size: 1.3em;">Inscripción</h3>
+                    <form action="">
+                        <p>
+                            <label>Nombre(s)</label>
+                            <input type="text">
+                        </p>
+                        <p>
+                            <label>Apellidos</label>
+                            <input type="text">
+                        </p>
+                        <p>
+                            <label>Matricula</label>
+                            <input type="text">
+                        </p>
+                        <p>
+                            <label>Telefono</label>
+                            <input type="tel">
+                        </p>
+                        <p>
+                            <label>Carrera</label>
+                            <input type="text">
+                        </p>
+                        <p>
+                            <label>Semestre</label>
+                            <input type="number">
+                        </p>
+                        <p class="block">
+                            <label>Materia Deseada de ENTRADA</label>
+                            <input type="time">
+                        </p>
+                        <p class="block">
+                            <label>Hora Deseada de SALIDA</label>
+                            <input type="time">
+                        </p>
+                        <p class="block">
+                          <label style="margin-left: 35%;">SUBIR CARTA MEDICA</label>
+                          <button> <b>SUBIR ARCHIVO</b> </button>  
+                        </p>
+                        <p class="block">
+                            <button type="submit"><b>SOLICITAR INSCRIPCION</b></button>
+                        </p>
+                    </form>
+                </div>
+    
+                <div class="formulario-info">
+                    <h4> <b>Mas informacion</b> </h4>
+                    <ul>
+                        <li> <i class="fas fa-street-view"></i> Av. Universidad S/N, Ciudad Universitaria
+                            San Nicolás de los Garza, N. L., C.P. 66455
+                        </li>
+                        <li> <i class="fas fa-phone"></i> (52) 81 8329 4020</li>
+                        <li> <i class="fas fa-envelope-square"></i> contacto@fime.uanl.mx</li>
+                    </ul>
+                    <p>Facultad de Ingeniería Mecánica y Electrica</p>
+                    <p>FIME UANL</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -29,3 +29,120 @@ nav a:hover{
     font-weight: 900;
     font-size: 15.5px;
 }
+
+
+/* ***************** */
+/* PANATALLA MEDIANA */
+/* ***************** */
+
+
+/* ************ */
+/* CONTENEDOR FORM */
+/* ************ */
+
+.contenedor-master{
+    padding: 0 1.5em;
+}
+.contenedor-General{
+    /* background: red; */
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    position: relative;
+    top: 100px;
+}
+.logo{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 17px;
+}
+.logo img{
+    position: relative;
+    left: -1em;
+}
+.logo span{
+    color: green;
+}
+.contenedor-formulario{
+    border-radius: 18px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0); /*NEOMORFISMO*/
+    box-shadow:  10px 10px 20px #848484,
+             -10px -10px 20px #ffffff;
+}
+.contenedor-formulario > *{
+    padding: 1em;
+}
+
+/* ************ */
+/* FORMULARIO */
+/* ************ */
+.formulario form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.formulario form .block{
+    grid-column: 1 / 3;
+}
+
+.formulario form p{
+    padding: 1em;
+}
+.formulario form label{
+    color: rgb(5, 107, 5);
+    font-weight: bolder;
+    font-size: 1.15em;
+}
+.formulario form button , .formulario form input{
+    width: 100%;
+    padding: 1em;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: #e0e0e0;
+    box-shadow: inset 16px 16px 36px #afafaf,
+            inset -16px -16px 36px #ffffff;
+}
+.formulario form input:focus{
+    border-radius: 42px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  8px 8px 16px #b5b5b5,
+                 -8px -8px 16px #ffffff;
+}
+.formulario form button{
+    margin-top: 30px;
+    border-radius: 23px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  13px 13px 21px #898989,
+             -13px -13px 21px #ffffff;
+    text-transform: uppercase;
+}
+.formulario form button:hover{
+    border-radius: 10px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  14px 14px 28px #989898,
+             -14px -14px 28px #ffffff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* ************** */
+/* MAS INFORMACIN */
+/* ************** */
+.formulario-info > *{
+    /* background: green; */
+    color: green;
+    font-weight: 1000;
+    font-size: 1em;
+}
+.formulario-info ul{
+    list-style: none;
+    padding: 0;
+}
+.formulario-info h4, .formulario-info ul, .formulario-info p{
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+.formulario-info ul li{
+    padding: .5em;
+}
